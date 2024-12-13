@@ -352,24 +352,20 @@ color: #5c5151;
     margin-top: 7%;
     background: rgba(4, 8, 26, 0.977);
     margin-top: 0%;
+    display: flex;
 }
 .container h1{
     color: #ffffff;
-    width: 400px;
-    padding: 50px 30px;
+    width: 550px;
+    padding: 70px 50px;
     font-size: 2,2rem;
-    padding-top: 15%;
-  
-}
-.container h2{
-    color: #fff;
-    margin-top: 50px;
+    padding-top: 5%;
 }
 
 iframe{
     width: 50%;
-    height: 500px;
+    height: 450px;
     filter: invert(100%);
-    margin-left: 5%;
-    padding-top: 6%;
+    margin-left: -5%;
+    padding-top:5%;
 }
