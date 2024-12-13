@@ -1,0 +1,379 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EEE;
+    width: 100%;
+    
+}
+.main{
+    background-color: #EEE;
+    padding: 0;
+    width: 100%;
+}
+.deal{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.deal h1{
+    width: 180px;
+    padding: 10px 30px;
+    color: rgba(242, 73, 0, 0.947);
+}
+.deal ul{
+    display: flex;
+    padding-top: 25px;
+    width: 700px;
+}
+.deal ul li{
+    list-style: none;
+    padding-left: 30px;
+    color: #8d8888;
+    
+}
+.deal ul li:first-child{
+    color: rgb(0, 0, 0);
+}
+.deal ul li:hover{
+    color: red;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.deal button{
+    width: 100px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: 1px solid rgb(4, 66, 116);
+    background-color: black;
+    margin-left: -15%;
+    margin-top: 15%;
+}
+.deal button:hover{
+    color: #000000;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/* mood */
+
+.mood{
+    margin: 10px 70px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.show h1{
+    color: #000000;
+    font-size: 2.2rem;
+}
+.show h2{
+    color: rgba(242, 73, 0, 0.947);
+    font-size: 1.9rem;
+}
+.show p{
+    font-size: 1rem;
+    color: #6f6a6a;
+}
+.rent span{
+    width: 200px;
+    /* padding-left: 10%; */
+    font-size: 1.2rem;
+    padding-top: 30px;
+    margin-left: 29%;
+}
+.rent h1{
+    margin-left: 20px;
+    color: #63523b;
+    border-left: 1px dotted black;
+    padding-left: 20px;
+}
+.rent {
+    width: 250px;
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   
+}
+.photo img{
+    width: 500px;
+    height: auto;
+    animation: mover 2s infinite alternate;
+}
+@keyframes mover {
+    0%{transform: translateY(0);}
+    100%{transform: translateY(-10px);}
+}
+/*  */
+
+.last button{
+    width: 160px;
+    font-size: 1.2rem;
+    padding: 1% 5px;
+    margin-left: 80px;
+    color: red;
+    border: 1px solid black;
+    border-radius: 50px ;
+    padding-left: 10px;
+    margin-bottom: 20px;
+ 
+}
+.last button:hover{
+    background: #4a3c29;
+    color: #fff;
+    transition: 1s;
+}
+.text{
+    padding: 40px 40px;
+    width: 800px;
+    margin-left: 10%;
+    /* border: 1px solid #000000; */
+    border-radius: 10px;
+    background-color: #faf5f5;
+    filter: blur(1px);
+    /* transition: 2s; */
+}
+.text:hover{
+    /* background-color: #000000; */
+    filter: blur(0px);
+    transition: 1s;
+    filter: blur(0px);
+    /* color: rgb(255, 111, 0); */
+}
+.text i{
+    margin-left: 10px;
+}
+.text input{
+    padding-left: 30px;
+}
+.text input::placeholder{
+    height: 30px;
+}
+.text button{
+    margin-left: 20px;
+    background-color: rgba(242, 73, 0, 0.947);
+    color: #fff;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #c3b6b6;
+}
+/* showcase */
+.showcase{
+    width: 102%;
+    margin-left: 30px;
+}
+.fox img{
+    width: 330px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+   
+}
+.pick h1{
+    padding: 10px 35%;
+    color: #000000;
+}
+.pick h2 {
+padding: 15px 60px;
+color: #5c5151;
+}
+.pick h2 span{
+    color: rgb(169, 169, 169);
+    font-size: 15px;
+    margin-left: 75%;
+}
+.win{
+    width: 100%;
+    color: rgb(130, 123, 123);
+    padding: 10px 20px;
+    display: flex;
+    margin-left: 10px;
+}
+.win .fox {
+    padding: 0px 5px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.fox h1{
+    color: #000000;
+    font-size: 2.2rem;
+    padding-left: 35px;
+}
+.fox h2 i{
+    color: rgba(232, 232, 10, 0.966);
+    padding: 0px 10px;
+}
+.fox h2{
+    color: #292727c3;
+    padding-left: 30px;
+   
+}
+.fox h3{
+    color: #796b57;
+    font-size: 1rem;
+    padding: 0px 15px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    padding-left: 40px;
+}
+.fox h3 i{
+    color: #000000;
+    padding: 0px 10px;
+}
+.fox button{
+    width: 100px;
+    height: auto;
+    margin-bottom: 5px;
+    padding: 5px 5px;
+}
+.fox button:hover{
+    color: #ffffff;
+    background-color: #aa1010;
+}
+.fox h4{
+    padding: 0px 15px;
+    color: #000000;
+}
+.fox h4 span{
+    margin-left: 35%;
+    font-size: 1.1rem;
+    border: 1px solid #080808;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color:rgb(0, 126, 124) ;
+}
+.fox h4 span:hover{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/*  lost*/
+
+.lost{
+    width: 100%;
+    color: rgb(130, 123, 123);
+    padding: 10px 20px;
+    display: flex;
+}
+.lost .fox {
+    padding: 0px 5px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* next */
+
+.next{
+    width: 100%;
+    color: rgb(130, 123, 123);
+    padding: 10px 20px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.next .fox {
+    padding: 0px 5px;
+    width: 100%;
+    margin-bottom: 30px;
+    /* border-bottom: 3px solid orange; */
+}
+
+/* gift */
+.gift .images img{
+    width: 80%;
+    height: auto;
+    border-radius:10px ;
+}
+.gift{
+    width: 100%;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.hold img{
+    margin-top: -7%;
+    width: 400px;
+    height: auto;
+}
+.hold h1{
+    padding: 5px 20px;
+    color: #aa1010;
+}
+.hold h2{
+    padding: 10px 20px;
+    color: #0b0b0b;
+}
+.hold h2 span{
+    color: #e17000;
+}
+.hold p {
+    padding: 10px 30px ;
+    color: #767474;
+}
+
+/* fo0ter */
+
+/* 
+.foot {
+  height: 78vh;
+   width: 100%; 
+}  */
+  .braand{
+    background: url(images/pexels-introspectivedsgn-4674338.jpg);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    height: 80vh;
+     width: 110%; 
+     /* margin-bottom: 299px; */
+} 
+
+.braand h1{
+    color: #fff;
+    font-size: 2rem;
+    padding: 20px 70px;
+}
+.braand p{
+    color: #fff;
+    width: 400px;
+    font-size: 1.4rem;
+    padding: 10px 7%;
+}
+.braand button{
+    margin-left: 15%;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 10px 25px;
+}
+.braand button:hover{
+    transition: .6s;
+    background-color: orangered;
+    color: #000000;
+}
+/* contanier */
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-top: 7%;
+    background: rgba(4, 8, 26, 0.977);
+    margin-top: 0%;
+}
+.container h1{
+    color: #ffffff;
+    width: 400px;
+    padding: 50px 30px;
+    font-size: 2,2rem;
+    padding-top: 15%;
+  
+}
+
+iframe{
+    width: 50%;
+    height: 500px;
+    filter: invert(100%);
+    margin-left: 5%;
+    padding-top: 6%;
+}
