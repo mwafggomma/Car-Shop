@@ -3,20 +3,21 @@ body{
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #EEE;
-    width: 100%;
+    display: inline-block;
     
 }
 .main{
     background-color: #EEE;
     padding: 0;
-    width: 100%;
+    display: inline-block;
 }
 .deal{
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
 .deal h1{
-    width: 180px;
+    /* width: 180px; */
+    display: inline-block;
     padding: 10px 30px;
     color: rgba(242, 73, 0, 0.947);
 }
@@ -49,7 +50,7 @@ body{
     margin-left: -15%;
     margin-top: 15%;
 }
-.deal button :hover{
+.deal button:hover{
     color: #000000;
     background-color: #fff;
     cursor: pointer;
@@ -59,7 +60,8 @@ body{
 
 .mood{
     margin: 10px 70px;
-    width: 100%;
+    /* width: 100%; */
+    display: inline-block;
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
@@ -97,6 +99,7 @@ body{
 }
 .photo img{
     width: 500px;
+    /* display: inline-block; */
     height: auto;
     animation: mover 2s infinite alternate;
 }
@@ -126,7 +129,8 @@ body{
 .text{
     margin-top: 15px;
     padding: 15px 40px;
-    width: 800px;
+    /* width: 800px; */
+    display: inline-block;
     margin-left: 10%;
     /* border: 1px solid #000000; */
     border-radius: 10px;
@@ -156,7 +160,8 @@ body{
 }
 /* showcase */
 .showcase{
-    width: 102%;
+    width: 90%;
+    /* display: inline-block; */
     margin-left: 30px;
 }
 .fox img{
@@ -180,7 +185,8 @@ color: #5c5151;
     margin-left: 75%;
 }
 .win{
-    width: 100%;
+    /* width: 100%; */
+    display: inline-block;
     color: rgb(130, 123, 123);
     padding: 10px 1px;
     display: flex;
@@ -248,7 +254,8 @@ color: #5c5151;
 /*  lost*/
 
 .lost{
-    width: 100%;
+    /* width: 100%; */
+    display: inline-block;
     color: rgb(130, 123, 123);
     padding: 10px 1px;
     display: flex;
@@ -263,7 +270,8 @@ color: #5c5151;
 /* next */
 
 .next{
-    width: 100%;
+    /* width: 100%; */
+    display: inline-block;
     color: rgb(130, 123, 123);
     padding: 10px 1px;
     display: flex;
@@ -295,22 +303,22 @@ color: #5c5151;
     height: auto;
 }
 .hold h1{
-    padding: 5px 20px;
+    padding: 5px 60px;
     color: #aa1010;
 }
 .hold h2{
-    padding: 10px 20px;
+    padding: 10px 70px;
     color: #0b0b0b;
 }
 .hold h2 span{
     color: #e17000;
 }
 .hold p {
-    padding: 10px 30px ;
+    padding: 10px 70px ;
     color: #767474;
 }
 
-/* fo0ter */
+/* footer */
 
 
   .braand{
@@ -319,7 +327,7 @@ color: #5c5151;
     background-size: cover;
     object-fit: cover;
     height: 80vh;
-     width: 100%; 
+     width: 100%;
 } 
 
 .braand h1{
@@ -347,7 +355,7 @@ color: #5c5151;
 /* contanier */
 
 .container{
-    width: 100%;
+    display: inline-block;
     height: 100vh;
     margin-top: 7%;
     background: rgba(4, 8, 26, 0.977);
@@ -363,9 +371,9 @@ color: #5c5151;
 }
 
 iframe{
-    width: 50%;
+    display: inline-block;
     height: 450px;
     filter: invert(100%);
     margin-left: -5%;
     padding-top:5%;
-}
+} 
